@@ -1,6 +1,6 @@
 ## 🎄Christmas Tree Skin
 
-[![Reachy Mini christmas tree](Christmas_Tree_Skin/reachy-mini-skin-christmas.png)]
+<img src="reachy-mini-skin-christmas.png" alt="Reachy Mini christmas tree" width="400">
 
 Give Reachy Mini a bold festive look with this shell customization. This skin combines 3D-printed parts, optional painting, and a magnetic star assembly for a polished final result.
 
