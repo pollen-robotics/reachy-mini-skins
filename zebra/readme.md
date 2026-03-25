@@ -1,6 +1,10 @@
 ## 🦓 Zebra skin
 
+<img src="reachy-mini-skin-zebra.png" alt="Reachy Mini zebra" width="250" align="left">
+
 Bring a playful zebra look to Reachy Mini with a simple sticker-based customization that lets you decorate the shell without damaging the robot.
+
+<br clear="left">
 
 ### Steps to make it
 
