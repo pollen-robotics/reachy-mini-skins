@@ -20,10 +20,6 @@ Give Reachy Mini a bold festive look with this shell customization. This skin co
    - **Montana Gold NC-Acrylic spray**  
    [Reference gold paint](https://www.surdiscount.com/fr/montana-cans-gold/39471-bombe-de-peinture-gold-acrylique-goldchrome-m3000-400ml-montana-cans-4048500285943.html)
 
-   We also painted Reachy Mini’s antennas and glasses in gold.
-
-   ⚠️ **Warning:** the glasses shown here were 3D printed. We do **not** recommend painting the standard injected plastic glasses.
-
 3. **Insert magnets into the stars**  
    Add magnets inside the stars so they align properly and form a star shape when the antennas touch.
 
