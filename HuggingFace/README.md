@@ -6,6 +6,8 @@ A cheerful yellow companion skin for Reachy Mini, featuring articulated hands de
 
 <br clear="left">
 
+### How to make it
+
 ![HF skin](img/hf_skin.png "Reachy Mini HuggingFace Skin")
 
 The shell is held with 3mm pins and 5mm magnets
