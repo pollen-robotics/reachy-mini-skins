@@ -6,7 +6,7 @@ This repository gathers the official Reachy Mini skins created by Pollen Robotic
 
 From playful and seasonal designs to more refined and expressive looks, these official skins showcase different ways to bring personality to Reachy Mini.
 
-Community creations are not included in this repository. They are available on the <a href="https://huggingface.co/spaces/pollen-robotics/reachy-mini-skins" target="_blank">Reachy Mini Skins</a>, where users can browse and submit their own designs.
+Community creations are not included in this repository. They are available on the [Reachy Mini Skins Space](https://huggingface.co/spaces/pollen-robotics/reachy-mini-skins), where users can browse and submit their own designs.
 
 <br clear="left">
 
