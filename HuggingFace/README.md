@@ -1,4 +1,10 @@
-# HuggingFace skin
+## 🤗 HuggingFace skin
+
+<img src="reachy-mini-skin-hugging-face.png" alt="Reachy Mini Hugging Face" width="250" align="left">
+
+A cheerful yellow companion skin for Reachy Mini, featuring articulated hands designed to hold small objects and add an extra playful touch.
+
+<br clear="left">
 
 ![HF skin](img/hf_skin.png "Reachy Mini HuggingFace Skin")
 
@@ -6,16 +12,16 @@ The shell is held with 3mm pins and 5mm magnets
 
 ![HF skin shell](img/skin_magnet.png "Shell pin and magnet")
 
-## Eyes
+### Eyes
 
 Eyes can be changed in order to produce different face expressions.
-Theyare inserted inside small grooves in the face skin. They are locked in position by glueing small tabs to the eye.
+They are inserted inside small grooves in the face skin. They are locked in position by glueing small tabs to the eye.
 
 ![HF skin eye clip](img/eye_clip.png "Eye clip")
 
 ![HF skin eye clip inside](img/eye_clip_inside.png "Eye clip inside view")
 
-## Hands
+### Hands
 
 Hands are articulated and fixed to the shell using two different blocks inserted in the front shell.
 
