@@ -2,9 +2,11 @@
 
 <img src="reachy-mini-skins.png" alt="reachy-mini-skins" width="220" align="left">
 
-This project is a community gallery for **skins, costumes, decorative parts, and shell add-ons** designed for Reachy Mini. The goal is simple: make it easy for anyone to personalize their robot by **adding elements to the existing shell**.
+This repository gathers the official Reachy Mini skins created by Pollen Robotics, showcasing playful, seasonal, refined, and expressive ways to bring personality to your robot.
 
-Whether you want to create something playful, seasonal, expressive, or polished, this space is here to help the community **share ideas, files, and inspiration**.
+From playful and seasonal designs to more refined and expressive looks, these official skins showcase different ways to bring personality to Reachy Mini.
+
+Community creations are not included in this repository. They are available on the <a href="https://huggingface.co/spaces/pollen-robotics/reachy-mini-skins" target="_blank">Reachy Mini Skins</a>, where users can browse and submit their own designs.
 
 <br clear="left">
 
