@@ -9,23 +9,16 @@ Whether you want to create something playful, seasonal, expressive, or polished,
 
 ## Add a new skin
 
-1. Create a folder inside `assets/` for the new design.
-2. Add the preview media you want to display:
-   - images: `.png`, `.jpg`, `.jpeg`, `.webp`
-   - videos: `.mp4`
-3. Add a new entry to `skinsData` in `skins.js`.
-4. Point the `link.url` to the place where users can find the files, instructions, or discussion thread.
-5. Commit and push.
-
-## Contribution guidelines
-
-When contributing new skins, try to keep the catalog consistent:
-
-- use clear folder names under `assets/`
-- provide at least one strong preview image
-- keep descriptions short and user-facing
-- use tags consistently across entries
-- verify that media paths and external links work before publishing
+1. Go to the “Submit your skin” section on the [Reachy Mini Skins Space](https://huggingface.co/spaces/pollen-robotics/reachy-mini-skins)
+2. Fill out the form with:
+- a name
+- a short description (90 max)
+- a few tags
+- a clean, sharp photo
+- a link to the Git repository or any other page containing the instructions and downloadable files
+- Click Submit.
+This will automatically create a pull request for the Pollen Robotics team to review.
+3. Once approved, your skin will appear in the community skin gallery.
 
 ## Important note
 
