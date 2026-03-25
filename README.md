@@ -1,9 +1,12 @@
 # 🎨 Reachy Mini Skins
 
+<img src="reachy-mini-skins.png" alt="reachy-mini-skins" width="220" align="left">
+
 A lightweight static gallery to showcase **community and official skins for Reachy Mini**.
 
 This project is a community gallery for **skins, costumes, decorative parts, and shell add-ons** designed for Reachy Mini. The goal is simple: make it easy for anyone to personalize their robot by **adding elements to the existing shell**.
 
+<br clear="left">
 
 Whether you want to create something playful, seasonal, expressive, or polished, this space is here to help the community **share ideas, files, and inspiration**.
 
