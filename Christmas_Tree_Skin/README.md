@@ -13,7 +13,7 @@ This skin combines 3D-printed parts, optional painting, and a magnetic star asse
 1. **3D print the provided files**  
    You can print the parts directly in green filament if you want to reduce the amount of painting.  
    For reference, we printed ours in white.
-   We printed the stars with golden filament.
+   We printed the stars in golden filament.
 
 3. **Paint the parts**  
    If you did not print them in green, you can paint them in green. For reference, we used:
