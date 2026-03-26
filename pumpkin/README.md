@@ -25,7 +25,7 @@ The body features an additional 3D-printed shell painted in orange, while the an
    - The result can be improved by painting in black or putting a black sticker/thin shell on the body surface, under the pumpkin skin, to hide the robot's original white face and make the pumpkin face stand out more.
 
 5. **Insert pins**  
-   - Insert pins in the holes of the body parts to allow them to snap together securely. You will need at least 4 pins 3mm x 16mm. 
+   - Insert pins in the holes of the body parts to allow them to snap together securely. You will need at least 4 [pins 3mm x 16mm](https://www.amazon.fr/-/en/PATIKIL-Stainless-Cylindrical-Furniture-Positioning/dp/B0DHVNX6C5/ref=sr_1_3?crid=236XOH8C9KTXE&dib=eyJ2IjoiMSJ9.5QbO9V-ZiyqCYW4HSt7XFj0PMyGSZxoNFR6krojUaebGjuyvZbfKPrYNu9ISGgIByApxajzHGTS6gQU9latDMcaniepbV7bjWST988v-Xa-LN0LuUz44z1nv1blu7ksM1GVxGxKQ7ClkYF4vfifz4Jc25Hf4d__Kks8LtXZdgnatbaj95sC5q8Muumc6mH2Qail9L7ygE_S3JvxBI61vJLIGlqS4RyLXaIolorTsMNelthEaj9mLJ_0RGoNgCT9pXlFtJRCV4ngMD93anA_JjgtsLuV0Ub06_IvYOP6Fzrs.QLDjCGqnt6C1F0XYGhI4GEfoy8mFOTn99ZgfFp4K0Sc&dib_tag=se&keywords=goupille%2B3x16mm&qid=1774517633&sprefix=goupille%2B3x16mm%2Caps%2C227&sr=8-3&th=1). 
 
 6. **Assemble everything**  
    - Once all parts are printed, painted, and fitted with pins, assemble the skin onto Reachy Mini.
