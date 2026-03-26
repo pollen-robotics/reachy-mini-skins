@@ -32,3 +32,6 @@ This skin combines 3D-printed parts, optional painting, and a magnetic star asse
    - The body parts should snap together with the pins
    - The star must be pressed on the antennas, make sure to align the magnets correctly so they attract each other and form a star shape.
    - Some decorative elements can be added to the body parts if you wish, such as small ornaments or tinsel.
+
+6. **Change the antennas motors configuration** (safety)  
+   - If you want to make the antennas move safely, you can [change the configuration of the antennas motors in the configuration file](https://github.com/pollen-robotics/reachy_mini/blob/1c347437881846b4ea3f293838baf11323c3e536/src/reachy_mini/assets/config/hardware_config.yaml#L144-L145), especially the limits of the motors position, to avoid any collision between the stars/antennas and the body.
