@@ -1,6 +1,6 @@
 ## 🕹️ Arcade Skin
 
-<img src="reachy-mini-skin-arcade.png" alt="Reachy Mini arcade" width="250" align="left" style="margin-right: 20px;">
+<img src="assets/reachy-mini-skin-arcade.png" alt="Reachy Mini arcade" width="250" align="left" style="margin-right: 20px;">
 
 A retro arcade cabinet skin for Reachy Mini, featuring a 3D-printed arcade structure and an added screen.
 
@@ -19,15 +19,14 @@ The screen is connected directly to a PC, bringing the arcade effect to life. Th
 - PLA filament
 
 #### Electronics
-> *See [Electronics section](#electronics) below — component list to be added.*
+- ESP32-2432S028 (Cheap Yellow Display)
+- Right-angle USB-C cable
 
 #### Assembly
 - Hot glue gun
 - 4x screws for the screen (type and size TBD)
 
 </details>
-
----
 
 <details>
 <summary><span style="font-size:1.2em"><b>3D Printing</b></span></summary>
@@ -41,25 +40,58 @@ STL and STEP files are available in the [`3d-models/`](3d-models/) folder.
 
 **Print settings:** Standard PLA settings. Supports are needed for both parts.
 
-</details>
+#### Customization
 
----
+You can paint the parts or add stickers to personalize your arcade skin however you like. For reference, ours is inspired by the [Spaceship Game](https://huggingface.co/spaces/apirrone/spaceship_game), a Reachy Mini app.
+
+</details>
 
 <details>
 <summary><span style="font-size:1.2em"><b>Electronics</b></span></summary>
 
-> **TODO** — This section will be completed with:
->
-> - Component list (screen, connectors, wiring)
-> - Wiring diagram
-> - PlatformIO firmware code and flashing instructions
-> - Screen configuration and PC connection setup
->
-> *Stay tuned!*
+The arcade screen uses an **ESP32-2432S028** (aka "Cheap Yellow Display" / CYD). The firmware source code is in the [`code/`](code/) folder — it's a PlatformIO project.
+
+#### Flashing the firmware
+
+1. **Install PlatformIO**
+   - Install [VS Code](https://code.visualstudio.com/) and the [PlatformIO extension](https://platformio.org/install/ide?install=vscode)
+   - Or install the [PlatformIO CLI](https://docs.platformio.org/en/latest/core/installation/index.html)
+
+2. **Connect the ESP32** to your PC via USB
+
+3. **Clone this repository**
+
+   ```bash
+   git clone https://github.com/pollen-robotics/reachy-mini-skins.git
+   ```
+
+4. **Navigate to the firmware folder**
+
+   **Linux / macOS:**
+   ```bash
+   cd reachy-mini-skins/arcade/code
+   ```
+
+   **Windows:**
+   ```powershell
+   cd reachy-mini-skins\arcade\code
+   ```
+
+5. **Upload the firmware**
+
+   **From the terminal (Linux / macOS / Windows):**
+   ```bash
+   pio run -e arcade --target upload
+   ```
+
+   **From VS Code:**
+   - Open the `code/` folder in VS Code
+   - Click the PlatformIO icon in the sidebar (ant head)
+   - Under `arcade` > `General`, click **Upload**
+
+6. **Verify** — once uploaded, the screen should power on and display the arcade menu
 
 </details>
-
----
 
 <details>
 <summary><span style="font-size:1.2em"><b>Assembly</b></span></summary>
@@ -67,6 +99,7 @@ STL and STEP files are available in the [`3d-models/`](3d-models/) folder.
 1. **Prepare the parts**
    - Make sure all printed parts are ready
    - Remove supports and clean up the surfaces
+   - Make sure you have flashed the firmware onto the ESP32 (see Electronics section above)
 
 2. **Replace the antennas**
    - Unscrew the stock antenna screws on Reachy Mini
@@ -81,3 +114,17 @@ STL and STEP files are available in the [`3d-models/`](3d-models/) folder.
    - For now there is no snap or screw attachment — simply use a hot glue gun to secure the shell to the robot
 
 </details>
+
+---
+
+### Ready to use the arcade?
+
+1. Turn on Reachy Mini
+2. Connect the arcade screen to your PC via the USB-C cable
+3. Download and launch the [Arcade app](https://huggingface.co/spaces/cdeplanne/arcade) from the Reachy Mini desktop app
+4. On the landing page, choose **"With physical arcade"**
+5. The app will automatically scan USB ports and detect the ESP32 — once detected, you're ready to play!
+
+> If the arcade is not detected automatically, make sure the ESP32 is plugged in and the firmware is flashed. You can also select the port manually from the setup page.
+
+Now all that's left is to play!
