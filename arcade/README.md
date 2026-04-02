@@ -53,43 +53,48 @@ The arcade screen uses an **ESP32-2432S028** (aka "Cheap Yellow Display" / CYD).
 
 #### Flashing the firmware
 
-1. **Install PlatformIO**
-   - Install [VS Code](https://code.visualstudio.com/) and the [PlatformIO extension](https://platformio.org/install/ide?install=vscode)
-   - Or install the [PlatformIO CLI](https://docs.platformio.org/en/latest/core/installation/index.html)
-
-2. **Connect the ESP32** to your PC via USB
-
-3. **Clone this repository**
-
+1. Connect the ESP32 to your PC via USB
+2. Clone this repository:
    ```bash
    git clone https://github.com/pollen-robotics/reachy-mini-skins.git
    ```
 
-4. **Navigate to the firmware folder**
+3. **Upload the code:**
+
+<details>
+<summary><b>From the command line</b></summary>
+
+- Install PlatformIO CLI (a virtual environment is recommended):
+   ```bash
+   pip install platformio
+   ```
+- Navigate to the firmware folder and upload:
 
    **Linux / macOS:**
    ```bash
    cd reachy-mini-skins/arcade/code
+   pio run -e arcade --target upload
    ```
 
    **Windows:**
    ```powershell
    cd reachy-mini-skins\arcade\code
-   ```
-
-5. **Upload the firmware**
-
-   **From the terminal (Linux / macOS / Windows):**
-   ```bash
    pio run -e arcade --target upload
    ```
 
-   **From VS Code:**
-   - Open the `code/` folder in VS Code
-   - Click the PlatformIO icon in the sidebar (ant head)
-   - Under `arcade` > `General`, click **Upload**
+</details>
 
-6. **Verify** — once uploaded, the screen should power on and display the arcade menu
+<details>
+<summary><b>From VS Code</b></summary>
+
+- Install [VS Code](https://code.visualstudio.com/) and the [PlatformIO extension](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)
+- Open the `reachy-mini-skins/arcade/code` folder in VS Code
+- Click the PlatformIO icon in the sidebar (ant head)
+- Under `arcade` > `General`, click **Upload**
+
+</details>
+
+Once uploaded, the screen should power on and display the arcade menu.
 
 </details>
 
