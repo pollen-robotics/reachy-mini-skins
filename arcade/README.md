@@ -44,6 +44,11 @@ STL and STEP files are available in the [`3d-models/`](3d-models/) folder.
 
 You can paint the parts or add stickers to personalize your arcade skin however you like. For reference, ours is inspired by the [Spaceship Game](https://huggingface.co/spaces/apirrone/spaceship_game), a Reachy Mini app.
 
+<p>
+<img src="assets/design_arcade1.png" alt="Arcade design 1" width="300">
+<img src="assets/design_arcade2.png" alt="Arcade design 2" width="200">
+</p>
+
 </details>
 
 <details>
@@ -89,8 +94,13 @@ The arcade screen uses an **ESP32-2432S028** (aka "Cheap Yellow Display" / CYD).
 
 - Install [VS Code](https://code.visualstudio.com/) and the [PlatformIO extension](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)
 - Open the `reachy-mini-skins/arcade/code` folder in VS Code
-- Click the PlatformIO icon in the sidebar (ant head)
-- Under `arcade` > `General`, click **Upload**
+- Click the PlatformIO icon in the sidebar:
+
+  <img src="assets/platformio1.png" alt="PlatformIO icon" width="500">
+
+- Click the **Upload** button at the bottom of VS Code:
+
+  <img src="assets/platformio2.png" alt="PlatformIO upload button" width="500">
 
 </details>
 
@@ -133,3 +143,5 @@ Once uploaded, the screen should power on and display the arcade menu.
 > If the arcade is not detected automatically, make sure the ESP32 is plugged in and the firmware is flashed. You can also select the port manually from the setup page.
 
 Now all that's left is to play!
+
+<img src="assets/reachy-mini-arcade.gif" alt="Reachy Mini Arcade demo" width="400">
