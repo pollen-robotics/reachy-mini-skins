@@ -20,11 +20,13 @@ The screen is connected directly to a PC, bringing the arcade effect to life. Th
 
 #### Electronics
 - ESP32-2432S028 (Cheap Yellow Display)
-- Right-angle USB-C cable
+- Right-angle USB cable:
+  - **Reachy Mini Wireless:** USB-C to USB-C (must be USB-C on both ends)
+  - **Reachy Mini Lite:** USB-A to USB-C or USB-C to USB-C
 
 #### Assembly
 - Hot glue gun
-- 4x screws for the screen (type and size TBD)
+- 4x M2 5mm screws for the screen
 
 </details>
 
@@ -121,12 +123,16 @@ Once uploaded, the screen should power on and display the arcade menu.
    - Replace them with the 3D-printed antennas and screw them back in
 
 3. **Mount the screen**
-   - Screw the screen onto the arcade body (4x screws, type and size TBD)
+   - Screw the screen onto the arcade body (4x M2 5mm screws)
    - Optionally, glue the screen cable in place to prevent it from moving around
 
 4. **Attach the body skin**
    - Place the arcade body shell onto Reachy Mini
    - For now there is no snap or screw attachment — simply use a hot glue gun to secure the shell to the robot
+
+5. **Connect the arcade**
+   - **Reachy Mini Wireless:** plug the USB-C cable into the USB-C port on the back of the robot
+   - **Reachy Mini Lite:** plug the USB cable into your PC
 
 </details>
 
@@ -135,7 +141,9 @@ Once uploaded, the screen should power on and display the arcade menu.
 ### Ready to use the arcade?
 
 1. Turn on Reachy Mini
-2. Connect the arcade screen to your PC via the USB-C cable
+2. Make sure the arcade screen is connected:
+   - **Wireless:** to the USB-C port on the back of the robot
+   - **Lite:** to your PC
 3. Download and launch the [Arcade app](https://huggingface.co/spaces/cdeplanne/arcade) from the Reachy Mini desktop app
 4. On the landing page, choose **"With physical arcade"**
 5. The app will automatically scan USB ports and detect the ESP32 — once detected, you're ready to play!
