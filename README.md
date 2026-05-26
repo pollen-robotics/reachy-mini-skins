@@ -28,3 +28,9 @@ This will automatically create a pull request for the Pollen Robotics team to re
 Some shared files may be community bonus content released for fun and experimentation.
 
 They are not meant to replace the normal product support workflow. If something is wrong with a community STL or experimental skin file, please **do not use the standard support/debug channels for that** unless the issue concerns the robot itself.
+
+
+
+# ⚖️ License
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/legalcode.en).
